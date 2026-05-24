@@ -2,7 +2,7 @@
 
 A concurrency-safe inventory reservation system built for multi-warehouse retail and D2C brands. When a customer proceeds to checkout, units are temporarily held for 10 minutes. If payment succeeds, the reservation is confirmed. If it fails or times out, units are released back to available stock.
 
-**Live Demo:** [deployed-url-here]
+**Live Demo:** [https://allo-health-0e3n.onrender.com/](https://allo-health-0e3n.onrender.com/)
 
 ---
 
