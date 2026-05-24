@@ -64,8 +64,8 @@ async function main() {
         name: "Nike Air Max 270",
         sku: "SHOE-NIKE-AM270",
         description:
-          "The Nike Air Max 270 delivers visible air cushioning under every step. Updated for the modern era with a sleek design and lightweight feel.",
-        imageUrl: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+          "Features Nike's biggest heel Air unit yet for a supersoft ride that feels as impossible as it looks.",
+        imageUrl: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800&q=80",
         price: 12995,
       },
     }),
@@ -94,9 +94,9 @@ async function main() {
         name: "Levi's 501 Original Jeans",
         sku: "APRL-LEVI-501",
         description:
-          "The original blue jean since 1873. Straight leg, button fly, and that iconic Levi's fit that's been trusted for over 150 years.",
-        imageUrl: "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=800&q=80",
-        price: 3999,
+          "The original blue jean since 1873. Classic straight fit and signature button fly.",
+        imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80",
+        price: 3900,
       },
     }),
     prisma.product.create({
@@ -104,9 +104,9 @@ async function main() {
         name: "Kindle Paperwhite",
         sku: "ELEC-AMZN-KPW",
         description:
-          "The thinnest, lightest Kindle Paperwhite yet, with a flush-front design and 300ppi glare-free display. Waterproof and USB-C.",
-        imageUrl: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
-        price: 14999,
+          "The thinnest, lightest Kindle Paperwhite yet, with a flush-front design and 300ppi glare-free display.",
+        imageUrl: "https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=800&q=80",
+        price: 13900,
       },
     }),
     prisma.product.create({
@@ -114,9 +114,9 @@ async function main() {
         name: "Instant Pot Duo 7-in-1",
         sku: "HOME-IP-DUO7",
         description:
-          "7-in-1 programmable cooker: pressure cook, slow cook, rice cook, steam, sauté, yogurt make, and warm. 6 quart capacity.",
-        imageUrl: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-        price: 8999,
+          "7-in-1 programmable cooker: pressure cook, slow cook, rice cook, steam, sauté, yogurt make, and warm.",
+        imageUrl: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=800&q=80",
+        price: 9900,
       },
     }),
   ]);
