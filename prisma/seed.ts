@@ -44,8 +44,8 @@ async function main() {
         name: "MacBook Pro 14″ M3",
         sku: "ELEC-MBP14-M3",
         description:
-          "Apple MacBook Pro 14-inch with M3 Pro chip, 18GB RAM, 512GB SSD. Space Black finish with Liquid Retina XDR display.",
-        imageUrl: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+          "The most advanced Mac ever built, featuring the M3 Pro chip for incredible speed and 18 hours of battery life.",
+        imageUrl: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRMzmVawd9QY7mBosKPBZkfd_syM6fUClfcLmzFF8uHbxDLLpU",
         price: 169900,
       },
     }),
@@ -95,7 +95,7 @@ async function main() {
         sku: "APRL-LEVI-501",
         description:
           "The original blue jean since 1873. Classic straight fit and signature button fly.",
-        imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80",
+        imageUrl: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS_4YTIWxv9jaPmQbCT9bexuR0N9ZDc2EFDIAr3HutuvALjaIYNFCkskQQKydskTxJs8kf8wc2kqItlZe8GprN8CR-u2fDvea8t6Y-T8NFHtJn3SULKo07V",
         price: 3900,
       },
     }),
@@ -105,7 +105,7 @@ async function main() {
         sku: "ELEC-AMZN-KPW",
         description:
           "The thinnest, lightest Kindle Paperwhite yet, with a flush-front design and 300ppi glare-free display.",
-        imageUrl: "https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=800&q=80",
+        imageUrl: "https://sell.gameloot.in/wp-content/uploads/2021/08/Amazon-Kindle-Paperwhite-4-10th-Gen-8-GB-6-Inch-WiFi-Only-Black-1.jpg",
         price: 13900,
       },
     }),
@@ -115,7 +115,7 @@ async function main() {
         sku: "HOME-IP-DUO7",
         description:
           "7-in-1 programmable cooker: pressure cook, slow cook, rice cook, steam, sauté, yogurt make, and warm.",
-        imageUrl: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=800&q=80",
+        imageUrl: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR5jcwZEW78QgKHVTj0BcvFzSbQIOzsIT4V3m0ilEcIY0STReFXJkXUKzFh7mHoeUbpbfVoYByjqw-JZDWxwwm9V3sEhWrLQ6402EvHF3VQ_1nDPA50d-1sCA",
         price: 9900,
       },
     }),
