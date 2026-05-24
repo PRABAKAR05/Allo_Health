@@ -105,7 +105,7 @@ async function main() {
         sku: "ELEC-AMZN-KPW",
         description:
           "The thinnest, lightest Kindle Paperwhite yet, with a flush-front design and 300ppi glare-free display.",
-        imageUrl: "https://m.media-amazon.com/images/I/51r2L-pC3cL._AC_SX679_.jpg",
+        imageUrl: "https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=800&q=80",
         price: 13900,
       },
     }),

@@ -3,11 +3,11 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Fixing Kindle image...");
+  console.log("Fixing Kindle image (using Unsplash since Amazon blocked hotlinking)...");
   
   await prisma.product.updateMany({
     where: { sku: "ELEC-AMZN-KPW" },
-    data: { imageUrl: "https://m.media-amazon.com/images/I/51r2L-pC3cL._AC_SX679_.jpg" }
+    data: { imageUrl: "https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=800&q=80" }
   });
 
   console.log("✅ Kindle image updated successfully!");
