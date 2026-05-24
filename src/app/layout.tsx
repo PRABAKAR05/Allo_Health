@@ -32,7 +32,6 @@ export default function RootLayout({
               <span className="header-logo-text">Allo Inventory</span>
             </a>
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <span className="header-badge">Live Demo</span>
               <ThemeToggle />
             </div>
           </header>
