@@ -14,22 +14,30 @@ export const metadata: Metadata = {
   keywords: ["inventory", "reservation", "warehouse", "e-commerce", "stock management"],
 };
 
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeToggle } from "@/components/ThemeToggle";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.variable}>
-        <header className="header">
-          <a href="/" className="header-logo">
-            <div className="header-logo-icon">A</div>
-            <span className="header-logo-text">Allo Inventory</span>
-          </a>
-          <span className="header-badge">Live Demo</span>
-        </header>
-        <main>{children}</main>
+        <ThemeProvider>
+          <header className="header">
+            <a href="/" className="header-logo">
+              <div className="header-logo-icon">A</div>
+              <span className="header-logo-text">Allo Inventory</span>
+            </a>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+              <span className="header-badge">Live Demo</span>
+              <ThemeToggle />
+            </div>
+          </header>
+          <main>{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );

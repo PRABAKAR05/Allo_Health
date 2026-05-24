@@ -1,6 +1,27 @@
 @import "tailwindcss";
 
 :root {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+  --surface-border: #e2e8f0;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-glow: rgba(59, 130, 246, 0.15);
+  --accent: #0ea5e9;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(0, 0, 0, 0.06);
+  --gradient-blue: linear-gradient(135deg, #3b82f6, #0ea5e9);
+  --gradient-surface: linear-gradient(180deg, #ffffff, #f8fafc);
+}
+
+[data-theme='dark'] {
   --background: #0a0e1a;
   --surface: #111827;
   --surface-hover: #1a2235;
