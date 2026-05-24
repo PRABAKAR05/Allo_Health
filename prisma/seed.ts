@@ -75,7 +75,7 @@ async function main() {
         sku: "HOME-DYS-V15",
         description:
           "Dyson's most powerful cordless vacuum with laser dust detection, piezo sensor, and LCD screen showing real-time particle counts.",
-        imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+        imageUrl: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
         price: 62900,
       },
     }),
