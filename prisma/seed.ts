@@ -105,7 +105,7 @@ async function main() {
         sku: "ELEC-AMZN-KPW",
         description:
           "The thinnest, lightest Kindle Paperwhite yet, with a flush-front design and 300ppi glare-free display.",
-        imageUrl: "https://sell.gameloot.in/wp-content/uploads/2021/08/Amazon-Kindle-Paperwhite-4-10th-Gen-8-GB-6-Inch-WiFi-Only-Black-1.jpg",
+        imageUrl: "https://m.media-amazon.com/images/I/51r2L-pC3cL._AC_SX679_.jpg",
         price: 13900,
       },
     }),
